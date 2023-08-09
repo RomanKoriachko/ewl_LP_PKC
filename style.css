@@ -707,7 +707,7 @@ body.lock {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 100;
-  top: 60%;
+  top: 70%;
   height: 46px;
   width: 46px;
   border: 1px solid black;
@@ -1026,7 +1026,7 @@ body.lock {
   }
   .review-section .review-section-row .review-slider .slick-prev,
   .review-section .review-section-row .review-slider .slick-next {
-    top: 101%;
+    top: 102%;
   }
   .requirements-section .requirements-wrapper {
     gap: 45px;
@@ -1427,44 +1427,18 @@ body.lock {
   .review-section .review-section-row .review-wrapper {
     text-align: left;
   }
-  .review-section .review-section-row .review-slider {
-    display: none;
-  }
-  .review-section .review-section-row .review-mobile-slider {
+  .review-section .review-section-row .review-slider .review-slider-item {
+    max-width: none;
+    margin: 0px 5px;
     text-align: left;
-    display: block;
-    max-width: 100%;
   }
-  .review-section .review-section-row .review-mobile-slider .review-mobile-slider-item:last-child {
-    margin-right: 0px;
-  }
-  .review-section .review-section-row .review-mobile-slider .review-slider-item {
-    margin-left: 0;
+  .review-section .review-section-row .review-slider .review-slider-item:last-child {
     margin-right: 0;
-    margin-bottom: 16px;
-    width: 100%;
   }
-  .review-section .review-section-row .review-mobile-slider .slick-prev,
-  .review-section .review-section-row .review-mobile-slider .slick-next {
-    top: 102%;
-  }
-  .review-section .review-section-row .review-mobile-slider .slick-prev:active,
-  .review-section .review-section-row .review-mobile-slider .slick-next:active {
-    border-color: #ffaa00;
-  }
-  .review-section .review-section-row .review-mobile-slider .slick-prev {
-    left: 40%;
-    transform: translateX(-50%);
-  }
-  .review-section .review-section-row .review-mobile-slider .slick-prev:active {
-    background-image: url(images/review-arrow-left-orange.svg);
-  }
-  .review-section .review-section-row .review-mobile-slider .slick-next {
-    left: 60%;
-    transform: translateX(-50%);
-  }
-  .review-section .review-section-row .review-mobile-slider .slick-next:active {
-    background-image: url(images/review-arrow-right-orange.svg);
+  .review-section .review-section-row .review-slider .slick-dots {
+    width: -moz-fit-content;
+    width: fit-content;
+    right: 0px;
   }
   .requirements-section {
     padding-top: 0px;

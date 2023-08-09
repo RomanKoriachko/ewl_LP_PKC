@@ -161,7 +161,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(".review-slider").slick({
         infinite: false,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 2,
         dots: true,
         variableWidth: true,
@@ -170,7 +170,22 @@ $(document).ready(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    variableWidth: false,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                 },
             },
@@ -178,13 +193,13 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $(".review-mobile-slider").slick({
-        infinite: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-    });
-});
+// $(document).ready(function () {
+//     $(".review-mobile-slider").slick({
+//         infinite: false,
+//         slidesToShow: 1,
+//         slidesToScroll: 1,
+//         adaptiveHeight: true,
+//     });
+// });
 
 // ---
