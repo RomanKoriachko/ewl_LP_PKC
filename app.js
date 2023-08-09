@@ -1,3 +1,5 @@
+AOS.init();
+
 // --- Burger menu ---
 
 const openBurgerBtn = document.querySelector(".burger-menu-btn");
@@ -163,6 +165,7 @@ $(document).ready(function () {
         slidesToScroll: 2,
         dots: true,
         variableWidth: true,
+        adaptiveHeight: true,
         responsive: [
             {
                 breakpoint: 1200,
@@ -185,5 +188,3 @@ $(document).ready(function () {
 });
 
 // ---
-
-AOS.init();
