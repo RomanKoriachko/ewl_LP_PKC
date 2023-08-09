@@ -298,10 +298,10 @@ body.lock {
     padding-bottom: 60px;
     text-align: center;
     .housing-bg {
-        background-image: url(images/housing-bg.png);
+        background-image: url(images/housing-bg2.png);
         background-repeat: no-repeat;
         background-position: 50% 50%;
-        background-size: 35%;
+        background-size: 60%;
         padding-top: 40px;
         padding-bottom: 60px;
     }
@@ -433,7 +433,6 @@ body.lock {
                 }
             }
             .review-wrapper-item-1 {
-                // margin-left: 0px;
                 .user-data-wrapper {
                     .user-img {
                         background-image: url(images/user-img-1.png);
@@ -448,8 +447,7 @@ body.lock {
                 }
             }
         }
-        .review-slider,
-        .review-mobile-slider {
+        .review-slider {
             position: static;
             width: 65%;
             .review-slider-item {
@@ -470,6 +468,10 @@ body.lock {
                         height: 80px;
                         width: 80px;
                         border-radius: 50%;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        filter: blur(1px);
                     }
                     .user-name {
                         @include fonts.t4();
@@ -483,13 +485,6 @@ body.lock {
                         font-weight: 500;
                         line-height: 19px;
                         color: #979797;
-                    }
-                }
-                .user-data-wrapper {
-                    .user-img {
-                        background-position: center;
-                        background-size: cover;
-                        background-repeat: no-repeat;
                     }
                 }
             }
