@@ -375,9 +375,6 @@ body.lock {
     .review-section-row {
         position: relative;
         gap: 48px;
-        // .review-text {
-        //     width: 55%;
-        // }
         .review-title {
             @include fonts.h2();
             color: black;
@@ -395,7 +392,6 @@ body.lock {
                 border: 1px solid #ebebeb;
                 border-radius: 6px;
                 background: #fbfbfb;
-                // margin: 0px 15px;
                 max-width: 465px;
                 min-width: 330px;
                 .review-wrapper-text {
@@ -507,6 +503,13 @@ body.lock {
                 .user-data-wrapper {
                     .user-img {
                         background-image: url(images/user-img-3.jpg);
+                    }
+                }
+            }
+            .review-slider-item-4 {
+                .user-data-wrapper {
+                    .user-img {
+                        background-image: url(images/user-img-4.png);
                     }
                 }
             }

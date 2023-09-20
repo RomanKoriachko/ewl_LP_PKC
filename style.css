@@ -680,6 +680,9 @@ body.lock {
 .review-section .review-section-row .review-slider .review-slider-item-3 .user-data-wrapper .user-img {
   background-image: url(images/user-img-3.jpg);
 }
+.review-section .review-section-row .review-slider .review-slider-item-4 .user-data-wrapper .user-img {
+  background-image: url(images/user-img-4.png);
+}
 .review-section .review-section-row .review-slider .slick-prev:before,
 .review-section .review-section-row .review-slider .slick-next:before {
   content: "";

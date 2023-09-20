@@ -115,8 +115,6 @@ introduceBtn.addEventListener("click", () => {
     });
 });
 
-// ---
-
 // --- Sliders ---
 
 $(document).ready(function () {
@@ -162,44 +160,17 @@ $(document).ready(function () {
     $(".review-slider").slick({
         infinite: false,
         slidesToShow: 1,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         dots: true,
         variableWidth: true,
         adaptiveHeight: true,
         responsive: [
             {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 2,
-                },
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-            {
                 breakpoint: 576,
                 settings: {
                     variableWidth: false,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
                 },
             },
         ],
     });
 });
-
-// $(document).ready(function () {
-//     $(".review-mobile-slider").slick({
-//         infinite: false,
-//         slidesToShow: 1,
-//         slidesToScroll: 1,
-//         adaptiveHeight: true,
-//     });
-// });
-
-// ---
