@@ -632,6 +632,7 @@ body.lock {
             padding: 100px 0px;
             justify-content: space-evenly;
             align-items: center;
+            gap: 15px;
             .footer-contacts-title {
                 @include fonts.h1();
                 font-size: 48px;
@@ -900,6 +901,20 @@ body.lock {
         }
         .video-content {
             height: 460px;
+        }
+    }
+    .footer {
+        .footer-bg {
+            .footer-contacts-wrapper {
+                .footer-contacts-title {
+                    font-size: 40px;
+                }
+                .footer-contacts-item {
+                    .contact-number {
+                        font-size: 30px;
+                    }
+                }
+            }
         }
     }
 }
@@ -1412,6 +1427,9 @@ body.lock {
                     }
                     .contact-number {
                         font-size: 24px;
+                    }
+                    .mail-number {
+                        font-size: 20px;
                     }
                 }
             }

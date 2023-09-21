@@ -820,6 +820,7 @@ body.lock {
   padding: 100px 0px;
   justify-content: space-evenly;
   align-items: center;
+  gap: 15px;
 }
 .footer .footer-bg .footer-contacts-wrapper .footer-contacts-title {
   font-family: "Roboto Slab", serif;
@@ -1031,6 +1032,12 @@ body.lock {
   }
   .video-section .video-content {
     height: 460px;
+  }
+  .footer .footer-bg .footer-contacts-wrapper .footer-contacts-title {
+    font-size: 40px;
+  }
+  .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .contact-number {
+    font-size: 30px;
   }
 }
 @media (max-width: 992px) {
@@ -1476,6 +1483,9 @@ body.lock {
   }
   .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .contact-number {
     font-size: 24px;
+  }
+  .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .mail-number {
+    font-size: 20px;
   }
   .footer .footer-links .social-media-links-wrapper {
     gap: 32px;
