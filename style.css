@@ -846,6 +846,12 @@ body.lock {
 .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .viber-img {
   background-image: url(images/viber-img.svg);
 }
+.footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .watsup-img {
+  background-image: url(images/watsup-img.svg);
+}
+.footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .mail-img {
+  background-image: url(images/mail-img.svg);
+}
 .footer .footer-bg .footer-contacts-wrapper .footer-contacts-item .contact-number {
   font-family: "Inter", sans-serif;
   font-size: 40px;
@@ -886,6 +892,9 @@ body.lock {
 }
 .footer .footer-links .facebook-link {
   background-image: url(images/facebook.svg);
+}
+.footer .footer-links .viber-link {
+  background-image: url(images/viber-img2.svg);
 }
 .footer .footer-links .instagram-link {
   background-image: url(images/instagram.svg);

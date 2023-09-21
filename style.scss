@@ -653,6 +653,12 @@ body.lock {
                 .viber-img {
                     background-image: url(images/viber-img.svg);
                 }
+                .watsup-img {
+                    background-image: url(images/watsup-img.svg);
+                }
+                .mail-img {
+                    background-image: url(images/mail-img.svg);
+                }
                 .contact-number {
                     @include fonts.h3();
                     font-weight: 500;
@@ -688,6 +694,9 @@ body.lock {
         }
         .facebook-link {
             background-image: url(images/facebook.svg);
+        }
+        .viber-link {
+            background-image: url(images/viber-img2.svg);
         }
         .instagram-link {
             background-image: url(images/instagram.svg);
